@@ -9,7 +9,31 @@
     <com.yandex.mapkit.mapview.MapView
         android:id="@+id/mapview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="228dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="616dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginBottom="72dp"
+                android:onClick="onClickCalculate"
+                android:background="#F03C79"
+                android:text="COUNT"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.yandex.mapkit.mapview.MapView>
+
 
 
 </RelativeLayout>
